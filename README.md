@@ -1,6 +1,5 @@
 # Spectral Neighbor Recommender
 
-# Spectral Neighbor Recommender
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1o6_YSl7K44pgO8PPFZSlLrq9fVHS7qql?usp=sharing)
 
 
