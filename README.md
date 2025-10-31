@@ -1,5 +1,9 @@
 # Spectral Neighbor Recommender
 
+# Spectral Neighbor Recommender
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1o6_YSl7K44pgO8PPFZSlLrq9fVHS7qql?usp=sharing)
+
+
 ## Overview
 The Spectral Neighbor Recommender is a prototype music recommendation system that uses spectral audio features and cosine similarity to find songs that are most similar to a given track. It demonstrates how signal processing and feature-based similarity can support audio-based music recommendations.
 
