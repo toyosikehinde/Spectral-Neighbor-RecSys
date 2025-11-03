@@ -51,6 +51,14 @@ Results suggest that cepstral (MFCC) features dominate retrieval performance at 
 
 ---
 
+## Feature Extraction
+
+Each song is analyzed using the Short-Time Fourier Transform (STFT) to capture frequency information over time. From these spectrograms, features such as MFCCs, spectral centroid, roll-off, flatness, and tempo are computed to describe the timbral and spectral identity of each track.
+
+### The Role of the Fourier Transform
+The Fourier Transform of a sine wave explains the core principle behind the system’s feature extraction. A sine wave contains energy at only one frequency, and its Fourier Transform produces two impulses showing that concentration. In the Spectral Neighbors Recommender, this concept is extended through the Short-Time Fourier Transform, which analyzes real music signals over time to reveal their frequency content. Features such as MFCCs, spectral centroid, and roll-off are computed from these Fourier representations, allowing each song to be described by its unique spectral pattern. This forms the foundation for comparing tracks through cosine similarity and generating meaningful, sound-based recommendations.
+
+
 ### Installation & Usage  
 
 ```bash
